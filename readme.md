@@ -7,7 +7,7 @@ steps-
 
 	a. import networkx as nx
 	b. import matplotlib.pyplot as plt
-	c. G = nx.read_shp('iiit_map.shp')
+	c. G=read_osm('iiit_map.osm', False)
 	d. nx.draw(G)
 	e. plt.show()
 
@@ -20,3 +20,4 @@ possible leads
 1. install this graph into mongodb(neo4j) using https://networkx.github.io/documentation/networkx-1.10/reference/readwrite.html
 1.1 or use the import for neo4j (https://neonx.readthedocs.io/en/latest/contributing.html)
 2. use neo4j for routing(https://neo4j-contrib.github.io/neo4j-graph-algorithms/)
+3. or use this (https://stackoverflow.com/questions/38237237/neo4j-finding-the-shortest-path-between-two-nodes-based-on-relationship-proper)
