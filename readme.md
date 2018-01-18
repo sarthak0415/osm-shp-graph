@@ -17,6 +17,7 @@ steps-
 
 
 possible leads
+0. osm_to_networkx (https://gist.github.com/Tofull/49fbb9f3661e376d2fe08c2e9d64320e)
 1. install this graph into mongodb(neo4j) using https://networkx.github.io/documentation/networkx-1.10/reference/readwrite.html
 1.1 or use the import for neo4j (https://neonx.readthedocs.io/en/latest/contributing.html)
 2. use neo4j for routing(https://neo4j-contrib.github.io/neo4j-graph-algorithms/)
